@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button, Space, Table } from 'antd';
 import CreateEdit from './create-edit'; 
-
+//
 const NameListTable = ()=> {
   const [visible, setVisible] = useState(false);
   const [formType, setFormType] = useState('add');
